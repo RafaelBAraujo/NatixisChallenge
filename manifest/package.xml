@@ -1,60 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>*</members>
+		<members>AccountTriggerHandler</members>
+		<members>AccountTriggerHelper</members>
+		<members>CustomerPortfolioTriggerHandler</members>
+		<members>CustomerPortfolioTriggerHelper</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
-		<members>*</members>
-		<name>ApexComponent</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>ApexPage</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>ApexTestSuite</name>
-	</types>
-	<types>
-		<members>*</members>
+		<members>AccountTrigger</members>
+		<members>CustomerPortfolioTrigger</members>
 		<name>ApexTrigger</name>
 	</types>
 	<types>
-		<members>*</members>
-		<name>AuraDefinitionBundle</name>
+		<members>Account</members>
+		<members>Customer_Portfolio__c</members>
+		<name>CustomObject</name>
 	</types>
 	<types>
-		<members>*</members>
-		<name>Flow</name>
+		<members>Account.Type</members>
+		<members>Customer_Portfolio__c.External_Id__c</members>
+		<members>Customer_Portfolio__c.Favorite__c</members>
+		<members>Customer_Portfolio__c.Contact__c</members>
+		<members>Customer_Portfolio__c.Source__c</members>
+		<members>Customer_Portfolio__c.User__c</members>
+		<name>CustomField</name>
 	</types>
 	<types>
-		<members>*</members>
-		<name>LightningComponentBundle</name>
+		<members>AccountType</members>
+		<name>StandardValueSet</name>
 	</types>
 	<types>
-		<members>*</members>
+		<members>CustomLabels</members>
+		<name>CustomLabels</name>
+	</types>
+	<types>
+		<members>Natixis_Customer_Portfolio_Management</members>
 		<name>PermissionSet</name>
 	</types>
 	<types>
-		<members>*</members>
-		<name>Profile</name>
-	</types>
-	<types>
-		<members>*</members>
+		<members>R_M1_PE3A8_XP5T0</members>
+		<members>R_M1_PE3A8_XP5T0_LE9F2</members>
+		<members>R_M1_PE3A8_XP5T0_LE9F2_RY6Q4</members>
 		<name>Role</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>SharingRules</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>SharingSet</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>StaticResource</name>
 	</types>
 	<version>60.0</version>
 </Package>
