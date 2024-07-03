@@ -5,15 +5,20 @@
 		<members>AccountTriggerHelper</members>
 		<members>CustomerPortfolioTriggerHandler</members>
 		<members>CustomerPortfolioTriggerHelper</members>
+		<members>ContactTriggerHandler</members>
+		<members>ContactTriggerHelper</members>
+		<members>CustomerPortfolioSharingJob</members>
 		<name>ApexClass</name>
 	</types>
 	<types>
 		<members>AccountTrigger</members>
+		<members>ContactTrigger</members>
 		<members>CustomerPortfolioTrigger</members>
 		<name>ApexTrigger</name>
 	</types>
 	<types>
 		<members>Account</members>
+		<members>Contact</members>
 		<members>Customer_Portfolio__c</members>
 		<name>CustomObject</name>
 	</types>

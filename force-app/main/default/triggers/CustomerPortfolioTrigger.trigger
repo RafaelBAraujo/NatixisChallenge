@@ -5,6 +5,7 @@ trigger CustomerPortfolioTrigger on Customer_Portfolio__c (before insert, after 
             CustomerPortfolioTriggerHandler.beforeInsert(Trigger.newMap);
         }
         when AFTER_INSERT {
+            CustomerPortfolioTriggerHandler.afterInsert(Trigger.newMap);
         }
         when BEFORE_UPDATE {
         }
@@ -13,6 +14,7 @@ trigger CustomerPortfolioTrigger on Customer_Portfolio__c (before insert, after 
         when BEFORE_DELETE {
         }
         when AFTER_DELETE {
+            CustomerPortfolioTriggerHandler.afterDelete(Trigger.oldMap);
         }
     }
 
